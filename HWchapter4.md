@@ -12,15 +12,15 @@ Byte:The decimal number 65 is represented in a one-byte binary code as 01000001 
 - eg. Type: int tells the system to allocate 4 bytes for integer operations. Variable: int x = 10; allowcates 4 bytes of memory named x and stores 10.
 ## Local and Instance Variables
 - Local Variables:Created inside a method or block(between {} brackets)and are automatically destroyed when exiting that block. They are only accessible within that specific block.
-- eg. ```java
+- eg.
+```java
 public static void main(String[] args) {
     String firstName = "Scott"; // Local variable
   }
-  ```
-
+```
 - Instance Variables: Also known as non-static variables, they are declared inside a class but outside any methods. They require creating an object to exist, and every object gets its own copy.
 - eg.
-  ```java
+```java
 public class MyClass {
 public String firstName; // Instance variable
 }
