@@ -15,12 +15,16 @@ Byte:The decimal number 65 is represented in a one-byte binary code as 01000001 
 - eg. ```java
 public static void main(String[] args) {
     String firstName = "Scott"; // Local variable
-}
+  }
+  ```
+
 - Instance Variables: Also known as non-static variables, they are declared inside a class but outside any methods. They require creating an object to exist, and every object gets its own copy.
-- eg. ```java
+- eg.
+  ```java
 public class MyClass {
 public String firstName; // Instance variable
 }
+  ```
 - Key Differences: Local variables exist only during method execution, whereas instance variables are tied to a class object's lifespan.
 ## Class (Static) Variables and properties
 - Variables declared with the static keyword inside a class but outside methods.
